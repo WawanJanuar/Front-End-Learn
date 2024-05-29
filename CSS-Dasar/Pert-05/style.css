@@ -1,0 +1,32 @@
+.hello:link {
+    color: orange;
+}
+.hello:hover {
+    font-size: 50px;
+    color: black;
+}
+.hello:active {
+    color: rebeccapurple;
+}
+.hello:visited {
+    color: black;
+}
+ul li:first-child a {
+    color: aqua;
+}
+ul li:last-child a {
+    color: pink;
+}
+ol li:nth-child(2n+1) a {
+    font-variant: small-caps;
+    text-decoration: none;
+}
+ol li:nth-child(even) a {
+    text-decoration: overline;
+}
+p:first-of-type {
+    color: aqua;
+}
+p:last-of-type {
+    color: blueviolet;
+}

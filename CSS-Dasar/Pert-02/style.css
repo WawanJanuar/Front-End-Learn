@@ -1,0 +1,29 @@
+/* text */
+/* 
+1. color
+untuk memberi warna pada text
+2. font-align
+rata kanan,kiri atau center
+3. font-indent
+memberi indentasi pada paragaf/teks
+4. font-decoration
+mengatur dekoradi pada teks
+5. text-transform
+mengubah jenis huruf besar, kecil atau capital semua
+6. letter-spacing
+mengatur spasi antar huruf
+7. word-spacing
+mengatur spasi antar kata
+*/
+
+/* color */
+/* 
+value dari color terbagi menjadi 3 jenis
+1. nama warna(dalam bahasa inggris)
+2. hexadesimal
+3.rgb
+*/
+
+p {
+    font-variant: small-caps;
+}

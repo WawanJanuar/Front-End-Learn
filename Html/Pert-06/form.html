@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+
+    <form action="">
+        <table border="1" cellpadding="5">
+            <tr>
+                <td><label for="username">Nama Pengguna:</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Kata Sandi:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" id="pria" name="gender" value="pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="gender" value="wanita">
+                    <label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Minat:</td>
+                <td>
+                    <input type="checkbox" id="crypto" name="interest" value="cryptocurrency">
+                    <label for="crypto">Cryptocurrency</label>
+                    <input type="checkbox" id="saham" name="interest" value="saham">
+                    <label for="saham">Saham</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Komentar:</label></td>
+                <td><textarea id="comments" name="comments"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="group">Kotak Kombinasi:</label></td>
+                <td>
+                    <select id="group" name="group">
+                        <option value=""></option>
+                        <option value="wawan">Wawan</option>
+                        <option value="vincent">Vincent</option>
+                        <option value="valentino">Valentino</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Kirim</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

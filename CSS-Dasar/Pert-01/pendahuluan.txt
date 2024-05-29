@@ -1,0 +1,9 @@
+CSS (Cascading style)
+- aturan yang digunakan untuk menampilkan elemen/tag html 
+- dibuat terpisah dengan html
+- bertujuan untuk memisahkan konten dan style
+- 1 css dapat digunakan untuk banyak halaman html
+- 1 halaman html dapat terlihat berbeda jika menggunakan css yang berbeda pula
+
+structure css
+selector {property: value}

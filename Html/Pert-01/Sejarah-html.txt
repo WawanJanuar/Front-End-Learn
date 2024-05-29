@@ -1,0 +1,4 @@
+html merupakan bahasa markup html merupakan singkatan dari hypertext markup languaqe kenapa html disebut bahasa markup karena didalam html terdapat banyak bahasa markup yang nantinya kita sebut dengan elemen atau tag jadi html bukanlah bahasa pemograman.
+html diciptakan pertama kali oleh bapak tim berners-lee dan bukannya hanya tim berners-lee juga menemukan banyak seperti http, hmtl, web browser, web server, web page dan sekarang dia juga sudah menjadi ceo dari web w3c dimana merupakan komunitas yang bertujuan untuk mengembangkan dan membuat standar standar web saat ini.
+www.evolutionoftheweb.com
+html => css => javascript
