@@ -1,0 +1,9 @@
+CSS Layouting merupakan teknik css untuk mengatur dan meletakan posisi elemen elemen dalam html serta mengatur tinggi dan lebar suatu elemen.
+
+dalam css layouting kita akan mempelajari
+1. Display
+2. Dimensi
+3. Overflow
+4. box model
+5. float
+6. position
