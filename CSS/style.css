@@ -109,7 +109,7 @@ header ul {
 
 /* gambar */
 .hero {
-    background-image: url(Image/gambar.jpg);
+    background-image: url(/Image/gambar.jpg);
     height: 300px;
     background-size: cover;
     background-position-y: -240px;
