@@ -2,3 +2,7 @@ body {
     background-color: aqua;
     background-image: url(3840x2160-2018-bugatti-divo-front-4k_1539792880.jpg);
 }
+p {
+    font-size: 50px;
+    color: brown;
+}
