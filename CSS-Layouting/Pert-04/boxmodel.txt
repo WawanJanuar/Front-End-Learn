@@ -1,0 +1,30 @@
+Konsep dasar dari CSS DASAR BOX MODEL
+setiap elemen dihalaman berada didalam sebauh box (kotak)
+kita bisa mengatur ukuran dan posisi kotak tersebut
+kita bisa memberi warna/gambar sebagai background kotak tersebut
+
+css box model terdiri dari MARGIN,BORDER ,PADDING, DAN CONTENT
+1. MARGIN
+area transparan disekitar kotak (diluar border)
+2. BORDER
+batas disekeliling content dan PADDING
+3. PADDING
+area transparan didalam kotak (diluar border)
+4. CONTENT
+konten sebenarnya didalam box, bisa berupa text,gambar,video ataupun audio
+
+1.MARGIN
+    shorthand
+    margin: atas, kiri-kanan, bawah;
+    margin: atas-bawah, kiri-kanan:
+    margin: atas, kanan, bawah, kiri;
+
+2. BORDER
+    border: width style color;
+    style : 1. solid
+            2. dotted
+            3. dashed
+            4. double
+
+CSS RESET
+dapat mereset atau mengatur ulang nilai nilai default pada elemen terutama untuk margin dan PADDING

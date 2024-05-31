@@ -1,0 +1,52 @@
+/* MARGIN
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    margin-bottom: 100px;
+} */
+
+/* PADDING */
+/* .satu-p {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    padding: 50px;
+} */
+/* jika menggunakan padding maka akan mempengaruhi ukuran kotak elemen */
+
+/* BORDER */
+/* .satu-b {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px double black;
+} */
+/* sama seperti padding dapat mempengaruhi ukuran elemen html */
+
+/* css reset */
+* {
+    margin: 0;
+}
+.reset {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+}
