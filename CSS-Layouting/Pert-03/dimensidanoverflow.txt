@@ -1,0 +1,22 @@
+DIMENSI DAN OVERFLOW
+
+#DIMENSI
+dalam mengatur dimensi kita dapat menggunakan width dan height pada css
+dan harus diingat juga pada dimensi tidak semua display bisa kita atur dimensinya misal display inline.
+
+Pada dimensi juga terdapat beberapa satuan yang biasa digunakan dalam mengatur ukuran panjang dan lebar suatu dimensi berikut:
+1. px (pixel)
+2. % (relative terhadap elemen parentnya)
+3. in,cm,mm,pt,pc
+
+
+#OVERFLOW
+dalam overflow terdapat beberapa elemen yang dapat digunkana pada dimensi
+1. visible
+merupakan elemen default pada setiap dimensi elemen html
+2. auto
+css akan menambahkan scroll secara otomatis ketika content dalam elemen kelebihan muatan.
+3. hidden
+css akan secara otomatis menyembuyikan isi content yang kelebihan
+4. scroll
+hampir sama dengan auto hanya saja yang berbeda adalah tampilan akan tetap ada walaupun konten tidak kelebihan.
