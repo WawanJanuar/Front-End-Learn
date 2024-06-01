@@ -1,0 +1,50 @@
+CSS FLOAT
+"Float merupakan properti pada css untuk mengatur posisi sebuah elemen. sebuah elemen dapat dipaksa untuk berada disebelah kiri atau kanan dari parentnya/pembungkusnya dengan menggunakan properti ini. "
+
+nilai dari float = 
+1. none (deefault)
+2. left
+3. right
+
+normal flow = normal flow adalah flow yang normal atau bawaan dari display masing masing elemen seperti inline atau block sedangkan
+out-of flow = adalah flow yang tidak normal yaitu float yang dipaksa.
+
+hal yang bisa dilakukan dengan properti float
+- TEXT WRAPPING
+membuat text mengelilingi gambar/elemen lain
+- IMAGE GALLERY
+membuat serangkaian gambar menjadi GALLERY
+- MULTI-COLUMN LAYOUT
+- DLL ...
+
+CLEAR
+berfungsi untuk menghentikan/membersihkan float ketika float sudah tidak ingin digunakan lagi
+ada beberapa cara yang bisa digunakna akan tetapi lebih merekomendasikan cara ke 3.
+1. menggunakan property overflow
+.container {
+    overflow: auto;
+}
+[cara ini tidak dianjurkan cara ini hanya untuk mengakali]
+
+2. menggunakan <div> kosong
+kita dapat menggunakan propertu clear
+clear berfungsi mengehentikan/membersihkan float, berikut merupakan nilai pada property clear
+1. left
+2. right
+3. both
+contoh
+html
+<div class="container">
+        <img>
+        <p>...</p>
+        <div class="clear"></div>
+</div>
+
+CSS
+.clear {
+    clear: both; = artinya membersihkan float kiri
+}
+[teknik ini terkesan membuat codingan kita berantakan dan terkesar membuat beban pada css karena div terkesan tidak memberikan apapun atau sangkat kosong buang buang memori]
+
+3. Menggunakan Clear Micro clearfix
+bisa langsung search di web "micro clearfix" cari yang nama webnya nicolasgallagher.com, setelah itu copy ke css kita, dan pada html tambahkan class cf pada elemen yang ingin dibersihkan.
