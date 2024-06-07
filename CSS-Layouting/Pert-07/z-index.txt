@@ -1,0 +1,8 @@
+z-index
+-------
+- hanya dapat digunakan pada elemen non-stactic
+- berfungsi untuk memajukan index ke depan ataupun ke belakang
+contoh penggunanaan
+p {
+    z-index: 1;
+}

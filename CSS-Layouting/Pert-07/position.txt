@@ -1,0 +1,30 @@
+CSS POSITION STATIC & REALTIVE
+position memliki beberapa nila atau value
+1.Static (default)
+2.reealtive
+3.absolute
+4.fixed
+
+CSS Position 
+- Stactic merupakan nilai default dari setiap elemen ketika tidak diberi properti posisiton
+- menggunakan posiiton selain stactic (non-static) akam membuat sebuah elemen menjadi seolah olah berbeda dimensi dari elemen lainnya.
+- Elemen yang diberi posiiton selain static dapat menggunakan properti [top,left,bottom, dan right]
+
+
+REALTIVE
+--------
+- ketika kita menggunakan elemen dengan posisi realtive{menggunakan properti top,left,bottom, dan right}, ruang yang ditempati oleh elemen tersebut masih ada
+- ketika kita menggerrakkan elemen dengan posisi relative, elemen akan bergerak relative terhadap posisi semulannya
+- jika kita memberikan properties top:0; dan left:0; maka elemen tidak berubah posisinya
+
+
+ABSOLUTE
+--------
+- ketika kita menggerakkan elemen dengan posisi obsolute {menggunakan properti top,left,bottom, dan right}, ruang yang ditempati oleh elemen tersebut dianggap tidak ada
+- ketika kita menggerakkan elemen dengan poaiai absolute absolute, elemen parentnya, {selama elemen parentnya memiliki posisi yang juga non-static}
+- jika kita memberi properti top:0 ;, left:0 ; maka elemen akan berada diujung kiri atas elemen parentnya
+
+FIXED
+-----
+- relative terhadap window/tampilan window.
+- saat discrool tidak akan bergerak atau tetap diam ditempat.
