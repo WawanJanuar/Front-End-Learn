@@ -1,0 +1,10 @@
+gradient dibagi menjadi 2 yaitu 
+1. linear gradient (gradasi secara garis lurus)
+linear gradient bukan merupakan properti dari css3 melainkan merupakan value dari background image
+/ multiple color \
+background-image: linear-gradient()
+/ menentukan arah \
+background-image: linear-gradient(sudut atau arah, warna)
+
+
+2. radial gradient (garasi secara melingkar)

@@ -1,0 +1,2 @@
+opacity merupakan properti css 3 yang digunakan untuk membuat sebuah elemen terlihat transparat
+jika elemen paretnya memakai opacitu maka anak elemenya akan ikut transparat.

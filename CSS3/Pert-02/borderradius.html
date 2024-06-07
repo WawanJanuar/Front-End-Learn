@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        .border {
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+            margin: auto;
+            border-radius: 500px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .border1 {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            background-color: aqua;
+        }
+        .border2 {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            border-radius: 50% 0 50% 0;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="border">
+        hello world
+    </div>
+    <div class="border1"></div>
+    <div class="border2"></div>
+
+</body>
+</html>

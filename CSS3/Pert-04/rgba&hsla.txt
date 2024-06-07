@@ -1,0 +1,1 @@
+rgba & hsla mungkin tampak sekilas hampir sama dengan opacity namun faktanya adalah berbeda value rgba dan hsla hanya berfungsi membuat warna pada elemen menjadi transparansi bukan elemen nya sehingga anak dari parentnya tidak ikut menjadi transparan.

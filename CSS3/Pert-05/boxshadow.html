@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        .satu {
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            margin: auto;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+            /* box shadow: x-offset,y-offset, blur, color */
+        }
+        .dua {
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            margin: 100px auto;
+            box-shadow: 20px 20px 5px 5px rgb(0, 0, 0);
+            /* box shadow: x-offset,y-offset, blur,spread  color */
+        }
+        .tiga {
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            margin: auto;
+            box-shadow: inset 20px 20px 50px 5px rgb(0, 0, 0);
+            /* box shadow: inset, x-offset,y-offset, blur,spread  color */
+            margin-bottom: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="satu"></div>
+    <br>
+    <div class="dua"></div>
+    <br>
+    <div class="tiga"></div>
+
+</body>
+</html>

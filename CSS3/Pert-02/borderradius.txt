@@ -1,0 +1,1 @@
+border radius merupakan properti dari css 3 yang berfungsi untuk membuat ujung kota suatu elemen menjadi bulat atau tidak tumpul.

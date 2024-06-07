@@ -1,0 +1,10 @@
+box shadow merupakan properti css3 untuk membuat banyagan, adapun value yang harus di inggat adalah:
+box-shadow: <x-offset> <y-offset> <blur> <color>;
+akan tetapi terdapat juga value tambahan ataupun opsionalnya
+box-shadow: <inset> <x-offset> <y-offset> <blur> <spread> <color>;
+spread kita bisa anggap spread seperti sizenya bayangan
+inset membuat shadow kedalam elemen
+
+
+
+Tex shadow pengguanaannya sama dengan box shadow hanya saja yang berbeda di value tex shadow tidak memiliki inset dan spread.

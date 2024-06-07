@@ -1,0 +1,9 @@
+Css3 adalah regenerasi ke 3 dari css yang direkomendasikan oleh w3c.
+
+Kenapa harus menggunakan css3?
+------------------------------
+- Membuat website menjadi lebih fleksibel
+- membuat mock up menjadi cepat tanpa menggunakan bantuan scripting
+- menggurangi penggunan gambar = kecepatan load halaman
+- penggunaan selector untuk menghindari penggunaan markup yang boros. 
+
